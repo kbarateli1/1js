@@ -23,7 +23,6 @@ let myUndefined;
 
 console.log(typeof userName, typeof userAge, typeof isStudent, typeof myNull, typeof myNan, typeof mynan, typeof myUndefined);
 
-
 let myName = "Ketevan";
 let myHobby = "Walking"
 let yearOfBirth = 1994;
@@ -32,11 +31,11 @@ let currentYear = 2022;
 console.log(typeof myName, typeof myHobby, typeof yearOfBirth, typeof currentYear);
 
 
+let myTextEcample1 = "My name is " + myName + "," + " I am " + (currentYear - yearOfBirth) + " years old and my hobby is " + myHobby
+console.log(myTextEcample1);
 
-console.log("My name is " + myName + "," + " I am " + (currentYear - yearOfBirth) + " years old and my hobby is " + myHobby);
 
-let myTextEcample = `My name is ${myName}, I am ${currentYear - yearOfBirth} years old and my hobby is ${myHobby}.`;
-
+let myTextEcample = `My name is ${myName}, I am ${currentYear - yearOfBirth} years old and my hobby is ${myHobby}`;
 console.log(myTextEcample);
 
 
